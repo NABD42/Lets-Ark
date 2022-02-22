@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#head {
+    text-align: center;
+
+}
+
+#head h1 {
+    font-family: Redressed, open sans condensed;
+    font-size: 3rem;
+}
+
+#head p {
+    font-family: Redressed, open sans condensed;
+    font-size: 1.5rem;
+}
+
+nav {
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    background-color: crimson;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: Noto Serif, open sans condensed;
+
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    transition: color .2s ease-in-out;
+}
+
+nav a:hover {
+    color: bisque;
+}
+
+.border {
+    border-right: 2px rgb(3, 3, 3) solid;
+}
+
+#firstPic img {
+    display: flex;
+    align-content: center;
+}
+
+#firstPhoto {
+    width: 70%;
+    height: 820px
+    
+}
