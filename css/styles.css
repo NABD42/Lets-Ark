@@ -7,6 +7,11 @@
     padding: 0;
 }
 
+body {
+    color: #5C85FF;
+    background-color: #C6D4FF;
+}
+
 #head {
     text-align: center;
 
@@ -23,12 +28,14 @@
 }
 
 nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
     box-shadow: 5px 5px 5px gray;
     border-radius: 10px;
     color: white;
     text-align: center;
     padding: 5px;
-    background-color: crimson;
+    background-color: #7A82AB;
 }
 
 nav ul {
@@ -47,7 +54,7 @@ nav ul li {
 nav a {
     text-decoration: none;
     color: black;
-    transition: color .2s ease-in-out;
+    transition: color .1s ease-in-out;
 }
 
 nav a:hover {
@@ -58,13 +65,64 @@ nav a:hover {
     border-right: 2px rgb(3, 3, 3) solid;
 }
 
-#firstPic img {
+#firstPic {
     display: flex;
-    align-content: center;
+    padding-top: 10px;
 }
 
 #firstPhoto {
-    width: 70%;
-    height: 820px
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    border: 10px solid #7A82AB;
+}
+
+.form {
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    background-color: #7A82AB;
+    border-radius: 10px;
+    align-items: center;
+    width: 50%;
+    margin-right: 50px;
+    margin-left: -50px;
+    height: 200px;
     
+}
+ form input {
+     width: 180px;
+     padding: 3px;
+     margin: 4px;
+
+ }
+
+ .form h2 {
+     color: aliceblue;
+     font-size: 2rem;
+     margin-bottom: 5px;
+
+ }
+
+ label {
+     display: inline-block;
+     width: 140px;
+     text-align: left;
+     color: antiquewhite;
+     font-family: Noto Serif, open sans condensed;
+ }
+
+@media (max-width: 768px){
+#firstPhoto {
+    width: 70%;
+}
+
+.form {
+    width: auto;
+    padding-right: 20%;
+}
+
+    form input {
+        width: 150px;
+    }
+
 }

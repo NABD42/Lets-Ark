@@ -3,6 +3,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/utilities.css"
     <title>Lost Ark Guía</title>
 </head>
 
@@ -22,7 +23,7 @@
         <!-- NAVBAR -->
             <nav id="navbar">
                 <ul>
-                    <li id="logo" class="border"><a href="#home">Home</a></li>
+                    <li id="logo" class="border"><a href="index.html">Home</a></li>
                     <li id="logo" class="border"><a href="#noticias">Noticias</a></li>
                     <li id="logo" class="border"><a href="#guias">Guias</a></li>
                     <li id="logo" class="border"><a href="#calculador">Calculador</a></li>
@@ -34,7 +35,19 @@
     </header>
 
     <section id="firstPic">
-        <img id="firstPhoto" src="/assets/img/lost-ark-2021-4k_1628453678.jpg" alt="lost ark">
+        <div class="pic">
+            <img id="firstPhoto" src="/assets/img/lost-ark-2021-4k_1628453678.jpg" alt="lost ark" class="left"></div>
+        <div class="form">
+            <h2>Crea tu cuenta !</h2>
+            <form class="center">
+                <label>Email</label>
+                <input type="email" placeholder="Email">
+                <label>Contraseña</label>
+                <input type="password" placeholder="Contraseña">
+            </form>
+            <input type="submit" value="Login">
+            <input type="button" value="Register">
+        </div>
     </section>
 
     <section id="presentation">
